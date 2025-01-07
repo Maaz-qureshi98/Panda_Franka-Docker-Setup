@@ -5,6 +5,7 @@ See the wiki for more information:
 1. Git clone the repo to worstation byt ssh$ git clone git@github.com:Maaz-qureshi98/ROS2-TB4_Docker-Setup.git
 2. cd uw_panda
 3. Open terminal and run$ ./start.sh
-4. source install/setup.bash
-5. catkin build
+4. source opt/ros/noetic/setup.bash
+5. source devel/setup.bash
+6. catkin build or catkin_make
 
