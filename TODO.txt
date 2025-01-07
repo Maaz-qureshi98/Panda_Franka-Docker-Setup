@@ -1,0 +1,4 @@
+* fix name resolution setup.
+	Some docker installs (robotlab10) use 127.0.0.1 as nameserver,
+	some google server (on laptop). Both is broken, the private docker
+	nameserver should be used instead. 

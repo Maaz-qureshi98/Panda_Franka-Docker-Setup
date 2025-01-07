@@ -1,0 +1,20 @@
+- git:
+   uri: https://github.com/pal-robotics/pal_hardware_gazebo.git
+   local-name: pal_hardware_gazebo
+   version: kinetic-devel
+- git:
+   uri: gitlab@git.uwaterloo.ca:adaptive/talos_moveit_config.git
+   local-name: talos_moveit_config
+   version: indigo-devel
+- git:
+   uri: gitlab@git.uwaterloo.ca:adaptive/uw_talos_base.git
+   local-name: uw_talos_base
+   version: master
+- git:
+   uri: gitlab@git.uwaterloo.ca:adaptive/UbiquityRobotics_fiducials.git
+   local-name: fiducials
+   version: kinetic-devel
+- git:
+   uri: https://github.com/pal-robotics/aruco_ros
+   local-name: aruco_ros
+   version: kinetic-devel
